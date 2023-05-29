@@ -17,7 +17,6 @@ export default function Contact() {
     setTimeout(() => {
       setSubmitted(false);
     }, 2000);
-    setEmailMessage(initialEmail)
   }
   return (
     <section
