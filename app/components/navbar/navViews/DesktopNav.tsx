@@ -16,7 +16,12 @@ export default function DesktopNav() {
           <Link href="#contact">Contact</Link>
         </li>
         <li className="cursor-pointer text-2xl">
-          <Link href="/Resume.pdf" target="_blank">Resume</Link>
+          <Link href="https://github.com/KensProjects" target="_blank">GitHub</Link>
+        </li>
+        <li className="cursor-pointer text-2xl">
+          <Link href="/Resume.pdf" target="_blank">
+            Resume
+          </Link>
         </li>
       </ul>
     </nav>

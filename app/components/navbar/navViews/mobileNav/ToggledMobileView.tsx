@@ -17,7 +17,14 @@ export default function ToggledMobileView() {
               <Link href="#contact">Contact</Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/Resume.pdf" target="_blank">Resume</Link>
+              <Link href="https://github.com/KensProjects" target="_blank">
+                GitHub
+              </Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link href="/Resume.pdf" target="_blank">
+                Resume
+              </Link>
             </li>
           </ul>
         </div>
