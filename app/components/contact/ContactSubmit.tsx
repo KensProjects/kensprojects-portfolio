@@ -18,7 +18,7 @@ export default function ContactSubmit() {
           <div className="flex justify-around items-center">
             <Image
               src="./checkmark.svg"
-              alt=""
+              alt="Submitted!"
               width={24}
               height={24}
             />

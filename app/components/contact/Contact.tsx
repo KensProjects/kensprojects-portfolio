@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { TEmail, initialEmail } from "@/app/config/exports/EmailConfig";
+import { TEmail, emailAction, initialEmail } from "@/app/config/exports/EmailConfig";
 import ContactSubmit from "./ContactSubmit";
 import { useAtom } from "jotai";
 import { submitAtom } from "@/app/config/context/SubmitContext";
@@ -26,7 +26,7 @@ export default function Contact() {
     >
       <h2 className="text-4xl">Contact Me!</h2>
       <form
-        action="https://formsubmit.co/01fd1993c53287ae12a263dd9fa27bf0"
+        action={emailAction}
         method="POST"
         onSubmit={handleContact}
         className="flex flex-col justify-betweem items-center border border-black sm:w-3/4 w-full h-full p-4 gap-6 bg-gray-100"

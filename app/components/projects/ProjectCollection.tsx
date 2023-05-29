@@ -20,8 +20,8 @@ export default function ProjectCollection() {
               <ProjectComponent
                 title={project.title}
                 body={project.body}
-                link={project.link}
-                linkHref={project.linkHref}
+                // link={project.link}
+                // linkHref={project.linkHref}
                 code={project.code}
                 technologies={project.technologies}
               />

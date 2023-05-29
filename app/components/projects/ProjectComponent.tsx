@@ -3,15 +3,15 @@ import React from "react";
 export default function ProjectComponent({
   title,
   body,
-  link,
-  linkHref,
+  // link,
+  // linkHref,
   code,
   technologies,
 }: {
   title: string;
   body: string;
-  link?: "View Demo" | "View Site";
-  linkHref: string;
+  // link?: "View Demo" | "View Site";
+  // linkHref: string;
   code: string;
   technologies: string[];
 }) {
