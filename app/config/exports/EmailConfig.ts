@@ -11,4 +11,4 @@ export const initialEmail = {
   subject: "",
   body: "",
 };
-export const emailAction = process.env.NEXT_PUBLIC_EMAIL
+export const emailAction:string = process.env.NEXT_PUBLIC_EMAIL as string
