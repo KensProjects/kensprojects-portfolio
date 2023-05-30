@@ -10,7 +10,7 @@ export default function Hamburger() {
   }
   return (
     <div
-      className="bg-gray-300 pt-2.5 pb-1 px-2 h-fit w-fit  cursor-pointer sm:hidden absolute top-5 right-2 rounded-lg"
+      className="bg-gray-300 pt-2.5 pb-1 px-2 h-fit w-fit cursor-pointer sm:hidden block rounded-lg"
       onClick={handleMobileToggle}
     >
       <button type="button" className="space-y-2">

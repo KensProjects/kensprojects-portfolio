@@ -7,7 +7,7 @@ export default function ToggledMobileView() {
   return (
     <>
       {mobileToggle && (
-        <div className="sm:hidden w-full h-fit bg-emerald-400 flex flex-col justify-center items-center gap-8 pt-20 pb-4">
+        <div className="sm:hidden w-full h-fit bg-emerald-400 flex flex-col justify-center items-center gap-8 pb-4">
           <h2 className="text-3xl">Kenny Wilson</h2>
           <ul className="flex flex-col justify-center items-center text-xl gap-8">
             <li className="cursor-pointer">
