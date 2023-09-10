@@ -3,15 +3,15 @@ import React from "react";
 export default function ProjectComponent({
   title,
   body,
-  // link,
-  // linkHref,
+  link,
+  linkHref,
   code,
   technologies,
 }: {
   title: string;
   body: string;
-  // link?: "View Demo" | "View Site";
-  // linkHref: string;
+  link?: "View Demo" | "View Site";
+  linkHref?: string;
   code: string;
   technologies: string[];
 }) {
@@ -36,14 +36,14 @@ export default function ProjectComponent({
 
       <div className="flex gap-4 full justify-center items-center flex-col">
         <div className=" py-4 underline-offset-4 underline text-2xl">Links</div>
-        {/* <a
+        <a
           href={linkHref}
           target="_blank"
           rel="noopener nofererer"
           className="bg-violet-300 hover:bg-violet-200 duration-75 ease-in-out w-40 h-16 rounded-lg flex justify-center items-center"
         >
           {link}
-        </a> */}
+        </a>
         <a
           href={code}
           target="_blank"

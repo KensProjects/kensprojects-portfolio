@@ -27,7 +27,7 @@ export default function Landing() {
         />
         <LandingButton
           type="Resume"
-          href="/Resume.pdf"
+          href="/DeveloperResume.pdf"
           target="_blank"
         />
 
