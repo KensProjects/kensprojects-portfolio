@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 
-import { TProject } from "../../config/exports/PonjectConfig";
+import { TProject } from "../../config/exports/ProjectConfig";
 
 import ProjectComponent from "./ProjectComponent";
 
-import { projectsInfo } from "../../config/exports/PonjectConfig";
+import { projectsInfo } from "../../config/exports/ProjectConfig";
 
 export default function ProjectCollection() {
   const [projects] = useState<TProject[]>(projectsInfo);

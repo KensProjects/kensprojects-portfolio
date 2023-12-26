@@ -35,7 +35,7 @@ export const projectsInfo: TProject[] = [
   {
     title: "Shopping App Demo",
     body: "A full-stack Next.js application that utilizes React-Query and Next-Auth to proivide account creation, authenication, and a simulated shopping experience for end users.",
-    link: "View Site",
+    // link: "View Site",
     code: "https://github.com/KensProjects/shopping-app-demo",
     technologies: [
       "Typescript",
