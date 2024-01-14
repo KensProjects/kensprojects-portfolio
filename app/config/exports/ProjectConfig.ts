@@ -15,6 +15,26 @@ export const projectsInfo: TProject[] = [
     code: "https://github.com/KensProjects/word-lookup",
     technologies: ["Typescript", "React", "TailwindCSS", "Dictionary API"],
   },
+  {
+    title: "Matching Game", 
+    body: "My version on the popular game. Allows players to match numbers for points.",
+    link: "View Site",
+    linkHref: "https://matching-game-ashy.vercel.app/",
+    code: "https://github.com/KensProjects/matching-game",
+    technologies: ["React", "Typescript", "Zustand"]
+  },{
+    title:"Trivia Game",
+    body:"A trivia app that allows players to test their knowledge!",
+    link:"View Site",
+    linkHref:"https://trivia-game-ts.vercel.app//",
+    code:"https://github.com/KensProjects/trivia-game-ts",
+    technologies:[
+      'React',
+      'Typescript',
+      'Zustand',
+      'Tanstack React-Query',
+      'TailwindCSS']
+  }
   // {
   //   title: "List-Maker",
   //   body: "A full-stack MERN app that allows users to create an account and take simple notes.",
@@ -32,23 +52,23 @@ export const projectsInfo: TProject[] = [
   //     "Tailwind",
   //   ],
   // },
-  {
-    title: "Shopping App Demo",
-    body: "A full-stack Next.js application that utilizes React-Query and Next-Auth to proivide account creation, authenication, and a simulated shopping experience for end users.",
-    // link: "View Site",
-    code: "https://github.com/KensProjects/shopping-app-demo",
-    technologies: [
-      "Typescript",
-      "React",
-      "Next.js",
-      "Node.js",
-      "MongoDB",
-      "Prisma",
-      "Jotai",
-      "TailwindCSS",
-      "NextAuth",
-      "React-Query",
-    ],
-    linkHref: "https://shopping-app-demo.vercel.app/",
-  },
+  // {
+  //   title: "Shopping App Demo",
+  //   body: "A full-stack Next.js application that utilizes React-Query and Next-Auth to proivide account creation, authenication, and a simulated shopping experience for end users.",
+  //   // link: "View Site",
+  //   code: "https://github.com/KensProjects/shopping-app-demo",
+  //   technologies: [
+  //     "Typescript",
+  //     "React",
+  //     "Next.js",
+  //     "Node.js",
+  //     "MongoDB",
+  //     "Prisma",
+  //     "Jotai",
+  //     "TailwindCSS",
+  //     "NextAuth",
+  //     "React-Query",
+  //   ],
+  //   linkHref: "https://shopping-app-demo.vercel.app/",
+  // },
 ];
