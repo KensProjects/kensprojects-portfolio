@@ -28,7 +28,7 @@ export default function Contact() {
         action={emailAction}
         method="POST"
         onSubmit={handleContact}
-        className="flex flex-col justify-betweem items-center border border-black sm:w-3/4 w-full h-full p-4 gap-6 bg-gray-100"
+        className="flex flex-col justify-betweem items-center border border-black sm:w-10/12 w-full h-full p-4 gap-6 bg-gray-100 text-center"
       >
         <div className="flex flex-col justify-start items-start  w-3/4 lg:w-1/2 gap-2">
           <label htmlFor="name">Name:</label>
@@ -85,7 +85,7 @@ export default function Contact() {
             }
             value={emailMessage.body}
             rows={10}
-            cols={75}
+            cols={50}
             required
           />
         </div>

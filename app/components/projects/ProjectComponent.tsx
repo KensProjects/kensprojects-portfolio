@@ -16,20 +16,20 @@ export default function ProjectComponent({
   technologies: string[];
 }) {
   return (
-    <div className="h-fit sm:w-11/12 w-full border border-black text-center grid grid-cols-1 md:grid-cols-3 justify-between items-center text-black p-8 bg-gray-100">
-      <div className="flex flex-col justify-center items-center h-full w-auto gap-8">
+    <div className="h-full sm:h-72 sm:w-11/12 w-full border border-black text-center grid grid-cols-1 md:grid-cols-3 justify-between items-center text-black p-8 bg-gray-100">
+      <div className="flex flex-col justify-start items-center h-full w-auto gap-8">
         <div className=" py-4 underline-offset-4 underline text-2xl">
           {title}
         </div>
         <p>{body}</p>
       </div>
-      <div className="flex flex-col justify-center items-center text-center py-4">
+      <div className="flex flex-col justify-start items-center text-center h-full">
         <div className=" py-4 underline-offset-4 underline text-2xl">
           Technologies Used
         </div>
         <ul className="list-inside grid grid-cols-2 justify-center items-center list-none h-fit w-full text-center gap-1">
           {technologies.map((technology: string, i) => {
-            return <li key={i}>{technology}</li>;
+            return <li key={i} className="w-full h-12 flex justify-center items-center underline text-center">{technology}</li>;
           })}
         </ul>
       </div>

@@ -13,7 +13,7 @@ export const projectsInfo: TProject[] = [
     link: "View Site",
     linkHref: "https://kensprojects.github.io/word-lookup/",
     code: "https://github.com/KensProjects/word-lookup",
-    technologies: ["Typescript", "React", "TailwindCSS", "Dictionary API"],
+    technologies: ["Typescript", "React", "TailwindCSS"],
   },
   {
     title: "Matching Game", 
@@ -26,13 +26,13 @@ export const projectsInfo: TProject[] = [
     title:"Trivia Game",
     body:"A trivia app that allows players to test their knowledge!",
     link:"View Site",
-    linkHref:"https://trivia-game-ts.vercel.app//",
+    linkHref:"https://trivia-game-ts.vercel.app/",
     code:"https://github.com/KensProjects/trivia-game-ts",
     technologies:[
       'React',
       'Typescript',
       'Zustand',
-      'Tanstack React-Query',
+      'React-Query',
       'TailwindCSS']
   }
   // {
